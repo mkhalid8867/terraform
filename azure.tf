@@ -3,7 +3,7 @@ provider "azurerm" { }
 
 # Create a resource group
 resource "azurerm_resource_group" "network" {
-  name     = "Vaccine-production"
+  name     = "Mo-production"
   location = "East US"
 }
 
